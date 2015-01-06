@@ -57,16 +57,55 @@ body {
 }
 
 main {
-
+	
 }
 
+.inner-wrapper {
+	max-width: 960px;
+	min-width: 800px;
+	margin: 0 auto;
+}
 
+header {
+	overflow: auto;
+	background-color: #006D80;
+}
 
+header .inner-wrapper {
+	padding: 0 15px;
+}
 
+header h1 {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 700;
+	color: #fff;
+	float: left;
+	margin: 20px 0;
+}
 
+nav {
+	float: right;
+	width: 300px;
+	margin-top: 10px;
+}
 
+nav a {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
 
-
+nav a:focus,
+nav a:hover,
+nav a:active {
+	color: #FFA34F;	
+}
 
 /* Media Queries */
 
