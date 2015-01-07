@@ -56,14 +56,23 @@ body {
 
 }
 
-main {
-	
+main, footer {
+	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .inner-wrapper {
 	max-width: 960px;
 	min-width: 800px;
 	margin: 0 auto;
+}
+
+.inner-wrapper h1 {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 20px 0;
+	float: left;
+	color: #fff;
 }
 
 header {
@@ -75,13 +84,6 @@ header .inner-wrapper {
 	padding: 0 15px;
 }
 
-header h1 {
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 700;
-	color: #fff;
-	float: left;
-	margin: 20px 0;
-}
 
 nav {
 	float: right;
@@ -107,22 +109,54 @@ nav a:active {
 	color: #FFA34F;	
 }
 
+
+h2 {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #000;
+	text-align: center;
+	margin-top: 10px;
+}
 /* Media Queries */
 
 /* tablet */
 @media only screen and (max-width: 850px) {   
 
+	.inner-wrapper {
+		max-width: 100%;
+		min-width: 100%;	
+	}
+	   
+	main.inner-wrapper {
+	  	max-width: 90%;
+	  	min-width: 90%;
+	  	margin: 15px auto;
+	}
+
 }
 
 /* phone */
 @media only screen and (max-width: 680px) {	
-	
+	.inner-wrapper h1 {
+		margin: 10px auto;
+		text-align: center;
+		float: none;
+		clear: both;
+	}
+
+	nav {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+	}
 }
 
 /* narrow phone */
 @media only screen and (max-width: 480px) {
 
 	
+
 }
 
 /* End Media Queries */
