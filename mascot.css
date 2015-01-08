@@ -118,10 +118,20 @@ h2 {
 	text-align: center;
 	margin-top: 10px;
 }
+
+.container {
+	text-align: center;
+}
+
+/* Form */
+.form-01, label, input {
+	text-align: center;
+}
+
 /* Media Queries */
 
 /* tablet */
-@media only screen and (max-width: 850px) {   
+@media only screen and (max-width: 768px) {   
 
 	.inner-wrapper {
 		max-width: 100%;
@@ -153,7 +163,7 @@ h2 {
 }
 
 /* narrow phone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
 
 	
 
