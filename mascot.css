@@ -119,9 +119,6 @@ h2 {
 	margin-top: 10px;
 }
 
-.container, .mascot-img, .contact {
-	text-align: center;
-}
 
 .mascot-img img {
 	margin-left: auto;
@@ -136,12 +133,9 @@ h2 {
 	margin: 0 auto;
 }
 
-.contact {
-	padding-bottom: 10px;
-}
-
-.container, .mascot-img {
+.container, .mascot-img, .contact, .contest-desc {
 	padding: 25px 30px;
+	text-align: center;
 }
 
 .container {
@@ -195,8 +189,10 @@ input {
 }
 
 .submit:hover {
-    background-color: #eeeeff;
+    background-color: #044476;
+    color: #fff;
 }
+
 
 /* Media Queries */
 
