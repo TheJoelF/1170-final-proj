@@ -217,12 +217,23 @@ input {
 		clear: both;
 		margin: 0 auto;
 	}
+
+	.mascot-img img {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+	.form-01 img {
+	width: 30%;
+	margin-left: auto;
+    margin-right: auto;
+	}
 }
 
 /* narrow phone */
 @media only screen and (max-width: 320px) {
 
-	
 
 }
 
