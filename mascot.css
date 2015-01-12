@@ -53,7 +53,7 @@ html {
 }
 
 body {
-	background-color: #fff4e4;
+	background-image: url(mascot-images/background.png);
 }
 
 main, footer {
@@ -162,12 +162,18 @@ h2 {
 
 footer {
 	text-align: center;
-	padding: 10px;
 }
 
+footer p {
+    padding: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
 /* Form */
-.form-01, label, input {
-    text-align: center;
+#user-name label {
+    margin-top: 10px;
 }
 
 .form-01 img {
@@ -177,6 +183,19 @@ footer {
 input {
 	padding: 3px;
 	text-align: left;
+    border: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.submit {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.submit:hover {
+    background-color: #eeeeff;
 }
 
 /* Media Queries */
@@ -229,6 +248,10 @@ input {
 	margin-left: auto;
     margin-right: auto;
 	}
+    
+    .rate-label {
+        display: block;
+    }
 }
 
 /* narrow phone */
